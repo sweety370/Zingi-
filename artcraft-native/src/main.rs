@@ -2,16 +2,7 @@
 
 //! ArtCraft, natively: an egui desktop app over the ArtCraft API (no Tauri, no webview).
 
-mod app;
-mod backend;
-mod feed;
-mod models;
-mod overlays;
-mod pages;
-mod prompt_box;
-mod shell;
-mod theme;
-mod ui;
+use artcraft_native::app;
 
 const APP_ID: &str = "ai.artcraft.native";
 
