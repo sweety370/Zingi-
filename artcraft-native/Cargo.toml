@@ -51,3 +51,17 @@ wry = "0.55"
 
 [dev-dependencies]
 egui_kittest = "0.36"
+[package.metadata.android]
+package = "ai.artcraft.native"
+apk_name = "ArtCraft"
+build_targets = ["aarch64-linux-android"]
+
+[package.metadata.android.sdk]
+min_sdk_version = 26
+target_sdk_version = 33
+
+[package.metadata.android.application]
+label = "ArtCraft"
+
+[[package.metadata.android.uses_permission]]
+name = "android.permission.INTERNET"
